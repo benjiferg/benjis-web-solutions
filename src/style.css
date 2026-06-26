@@ -361,6 +361,19 @@ a {
   margin-top: 1.8rem;
 }
 
+#copy-email {
+  font-variant-numeric: tabular-nums;
+}
+
+#copy-email:active {
+  transform: translateY(0) scale(0.98);
+}
+
+#copy-email.copied {
+  background: linear-gradient(135deg, #10b981, #06b6d4);
+  box-shadow: 0 8px 30px rgba(16, 185, 129, 0.35);
+}
+
 /* Footer */
 .footer {
   display: flex;
